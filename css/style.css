@@ -1,4 +1,7 @@
 /* adding navigation style */
+body{
+    font-family: 'Inter', sans-serif;
+}
 .navigation{
     height: 96px;
     display: flex;
@@ -49,6 +52,7 @@
     font-size: 56px;
     line-height: 60px;
     color: #000000; 
+    margin-bottom: 24px;
 }
 .section-1-p{
     font-size: 18px;
@@ -77,6 +81,7 @@
 }
 .feature{
     width: 340px;
+    margin-left: 46px;
 }
 .cyrcle{
     background-color: #000000;
@@ -175,6 +180,7 @@
 .section-5{
     height: 588px;
     background-image: url('../images/cta.svg');
+    background-size: cover;
 }
 
 /* styling footer */
