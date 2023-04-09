@@ -64,16 +64,16 @@
         background-image: url('../images/cta1200.png');
         background-size:cover;
     }
-    .version-1st, .display-logo{
-        display:none;
-
+    .display-logo{
+        display: initial;
     }
-    .version-2nd{
-        display:initial
+    .version-first-logo{
+        display: none;
     }
     .footer-brand-container{
         flex-direction: column;
     }
+ 
 }
 @media(max-width:960px){
  
@@ -210,6 +210,16 @@
     .section-3-content{
         width: 327px;
     }
+    .section-3-h{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 32px;
+    }
+    .section-3-p,.section-3-ul{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
     .child-2nd{
         display: none;
     }
@@ -219,9 +229,20 @@
         background-image: url('../images/cta744.png');
         background-size: cover;
     }
-    /* footer for mobile version needs to be updated */
-    footer{
+    .display-logo{
         display: none;
+    }
+    .version-first-logo{
+        display: initial;
+    }
+    footer{
+        flex-direction: column;
+        align-items:center;
+        text-align: center;
+    }
+    .footer-columns{
+        margin-top: 25px;
+        width: 80%;
     }
 }
 

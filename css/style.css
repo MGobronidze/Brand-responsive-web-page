@@ -223,7 +223,12 @@ footer{
     align-items: flex-start;
     color:#FFF;
 }
-.version-2nd{
+.footer-columns{
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+}
+.display-logo{
     display: none;
 }
 .footer-p{
