@@ -164,5 +164,64 @@
 
 }
 @media (max-width:744px) {
-    
+   .navigation{
+    height: 65px;
+   }
+   .burger-bar{
+    display: flex;
+    padding-right: 24px;
+   }
+   .nav-ul{
+    display: none;
+   }
+   .button-first{
+    display: none;
+   }
+   .section-1{
+    height: 695px;
+    width: 100%;
+   }
+   .section-1-header,.section-1-p, .comment{
+    width: 327px;
+   }
+   .section-1-paragraph{
+    margin-bottom: 24px;
+   }
+   .section-1-image{
+    background-image: url("../images/img.svg");
+    width: 327px;
+    background-size:cover;
+    border-radius: 12px; 
+    }
+    .section-2{
+        height: 510px;
+    }
+    .section-3{
+        height: 523px;
+    }
+    .image-section-3{
+        background-image: url("../images/imgsect3-744.png");
+        height: 195px;
+        width: 327px;
+        border-radius: 12px;
+        padding: 10px;
+        background-size: cover;
+    }
+    .section-3-content{
+        width: 327px;
+    }
+    .child-2nd{
+        display: none;
+    }
+    .section-5{
+   
+        height: 500px;
+        background-image: url('../images/cta744.png');
+        background-size: cover;
+    }
+    /* footer for mobile version needs to be updated */
+    footer{
+        display: none;
+    }
 }
+
