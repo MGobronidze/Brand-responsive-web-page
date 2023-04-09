@@ -8,6 +8,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.burger-bar{
+    display: none;
+}
 
 .nav-ul{
     display: flex;
@@ -71,6 +74,13 @@ body{
 .section-1btn{
     margin-right: 20px;
 }
+.section-1-image{
+    background-image: url("../images/img-section-1.svg");
+    width: 490px;
+    height: 330px;
+    background-size:cover;
+    border-radius: 12px; 
+}
 /* styling second section */
 .section-2{
     height: 256px;
@@ -80,8 +90,8 @@ body{
     align-items: center;
 }
 .feature{
-    width: 340px;
-    margin-left: 46px;
+    width: 30%;
+    margin-left: 1%;
 }
 .cyrcle{
     background-color: #000000;
@@ -115,6 +125,14 @@ body{
 
     color: #FFF;
 }
+.image-section-3{
+    background-image: url("../images/section-3img.svg");
+    height: 428px;
+    width: 503.5px;
+    border-radius: 12px;
+    padding: 10px;
+    background-size: cover;
+}
 .section-3-content{
     width: 442px;
     margin-left: 133px;
@@ -139,13 +157,11 @@ body{
 .section-4{
     height: 508px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .section-4-container{
-    height: 316px;
-    width: 350px;
-    margin-left: 30px;
+    width: 30%;
     background-color: #F3F3F3;
     display: flex;
     flex-direction: column;
@@ -178,14 +194,22 @@ body{
 }
 /* styling 5th section */
 .section-5{
+   
     height: 588px;
     background-image: url('../images/cta.svg');
     background-size: cover;
 }
 
 /* styling footer */
+.footer-brand-container{
+    display: flex;
+}
+.footer-logo{
+    width: 87px;
+    height: 27px;
+}
 footer{
-    height: 348px;
+    padding: 45px 32px;
     background-color: #000000;
     display: flex;
     justify-content: center;
@@ -215,6 +239,7 @@ input{
     border-radius: 40px;
     padding: 12px 24px;
     margin-bottom: 20px;
+    color: #FFF;
 }
 
 .sub-p{
@@ -223,4 +248,18 @@ input{
     font-size: 14px;
     line-height: 20px;
     color: grey;
+}
+.footer-input{
+    display: flex;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+
+}
+.fa-paper-plane{
+    position: absolute;
+    transform: translate(-30px,-15px);
 }

@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <script src="https://kit.fontawesome.com/df48cf437e.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,6 +39,7 @@
                 </li>
             </ul>
             <div class="button">Action</div>
+            <img src="images/Group12.png" alt="burger bar" class="burger-bar">
         </nav>
 
 
@@ -56,9 +58,8 @@
                         <p class="comment">5,000 people like you have purchased this product!</p>
                     </div>
                 </div>
-                <div class="section-1-image">
-                    <img src="images/section1-img.svg" alt="">
-                </div>
+                <div class="section-1-image"></div>
+             
             </section>
 
             <!-- adding second section -->
@@ -82,16 +83,18 @@
 
             <!-- adding 3th section -->
             <section class="section-3">
-                <img src="images/section-3img.svg" alt="image of our products">
+                <div class="image-section-3"></div>
                 <div class="section-3-content">
                     <h2 class="section-3-h">Long headline on two lines to turn your visitors into users and achieve more</h2>
-                    <p class="section-3-p">Separated they live in Bookmarks right at the coast of the famous Semantics, large language ocean</p>
-                    <ul class="section-3-ul">
-                        <li>Showcase and embed your work with </li>
-                        <li>Publish across social channels in a click</li>
-                        <li>Sell your videos worldwide</li>
-                        <li>Embed your work with </li>
-                    </ul>
+                    <div class="section-3-container">
+                        <p class="section-3-p">Separated they live in Bookmarks right at the coast of the famous Semantics, large language ocean</p>
+                        <ul class="section-3-ul">
+                            <li>Showcase and embed your work with </li>
+                            <li>Publish across social channels in a click</li>
+                            <li>Sell your videos worldwide</li>
+                            <li>Embed your work with </li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 
@@ -106,8 +109,8 @@
                             <p class="section-4-desc">Description</p>
                         </div>
                         <div class="section-4-icons">
-                            <img src="images/FB.svg" alt="fb logo">
-                            <img src="images/Twitter.svg" alt="twitter logo">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
                         </div>
                     </div>                   
                 </div>
@@ -120,8 +123,8 @@
                             <p class="section-4-desc">Description</p>
                         </div>
                         <div class="section-4-icons">
-                            <img src="images/FB.svg" alt="fb logo">
-                            <img src="images/Twitter.svg" alt="twitter logo">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>    
                         </div>
                     </div>                   
                 </div>
@@ -134,15 +137,15 @@
                             <p class="section-4-desc">Description</p>
                         </div>
                         <div class="section-4-icons">
-                            <img src="images/FB.svg" alt="fb logo">
-                            <img src="images/Twitter.svg" alt="twitter logo">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
                         </div>
                     </div>                   
                 </div>
             </section>
             <!-- adding 5th section -->
             <section class="section-5">
-                <!-- მხოლოდ ფოტო ვერ ჩამვტვირთე -->
+                <!-- მხოლოდ ფოტო ვერ ჩამოვტვირთე -->
                 <p></p>
                 <h2></h2>
                 <div></div>
@@ -150,15 +153,17 @@
         </main>
         <!-- adding footer -->
         <footer>
-            <img src="images/logo.png" alt="logo of our brand" class="footer-logo">
-            <div class="footer-container">
-                <p class="footer-p">First column</p>
-                <ul>
-                    <li class="footer-li">First page</li>
-                    <li class="footer-li">Second page</li>
-                    <li class="footer-li">Third</li>
-                    <li class="footer-li">Fourth</li>
-                </ul>
+            <div class="footer-brand-container">
+                <img src="images/logo.png" alt="logo of our brand" class="footer-logo">
+                <div class="footer-container active">
+                    <p class="footer-p">First column</p>
+                    <ul>
+                        <li class="footer-li">First page</li>
+                        <li class="footer-li">Second page</li>
+                        <li class="footer-li">Third</li>
+                        <li class="footer-li">Fourth</li>
+                    </ul>
+                </div>
             </div>
             <div class="footer-container">
                 <p class="footer-p"> Secont</p>
@@ -180,7 +185,7 @@
                 <p class="footer-p">Subscribe</p>
                 <div class="footer-input">
                     <input type="text" placeholder="Enter email" >
-                    <i class="fa-thin fa-paper-plane"></i>
+                    <i class="fa-sharp fa-solid fa-paper-plane" style="color: #fcfcfc;"></i>    
                 </div>
                 <p class="sub-p">Join our newsletter to stay up to date on features and releases</p>
             </div>
