@@ -223,6 +223,13 @@
     .child-2nd{
         display: none;
     }
+    .section-4-container{
+        margin: 0;
+    }
+    .section-4{
+        justify-content: space-around;
+    }
+  
     .section-5{
    
         height: 500px;
