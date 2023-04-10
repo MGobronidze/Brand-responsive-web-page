@@ -48,6 +48,8 @@ body{
 }
 .section-1-paragraph{
     display: flex;
+    max-width:490px;
+    margin-right:115px ;
     flex-direction: column;
     justify-content: center;
 }
